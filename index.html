@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <title>Ws Dom</title>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <span class="navbar-brand mb-0 h1">Shopping Card</span>
+            </div>
+          </nav>
+          <div class="row border-bottom">
+              <div class="col-md-2 mt-5">
+                  <input type="checkbox" class="check">
+              </div>
+              <div class="col-md-5">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3cnCdaKKq_dbFvh920gpDo57VNxmbWpCPqQ&usqp=CAU" alt="product" class="mt-0">
+              </div>
+              <div class="col-md-3 mt-5">
+                  <button class="add">+</button>
+                  <input type="text" value="0" class="quantity">
+                  <button class="remove">-</button>
+              </div>
+              <p class="col-md-1 mt-5 unitPrice">50</p>
+              <p class="col-md-1 mt-5 price">0</p>
+          </div>
+          <div class="row border-bottom">
+            <div class="col-md-2 mt-5">
+                <input type="checkbox" class="check">
+            </div>
+            <div class="col-md-5">
+                <img src="https://s.alicdn.com/@sc01/kf/Hc72f3726c52c459a8c9d68be9cea111eF.jpg_300x300.jpg" alt="product" class="mt-0">
+            </div>
+            <div class="col-md-3 mt-5">
+                <button class="add">+</button>
+                <input type="text" value="0" class="quantity">
+                <button class="remove">-</button>
+            </div>
+            <p class="col-md-1 mt-5 unitPrice">50</p>
+            <p class="col-md-1 mt-5 price">0</p>
+        </div>
+        <div class="alert-danger">
+            Total : <span id="total">0</span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
