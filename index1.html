@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Shopping Card</title>
+  </head>
+  <body>
+    <h1>Shopping Card</h1>
+    <h3>Total :<span id="total">0</span></h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Select</th>
+          <th>product</th>
+          <th>quantity</th>
+          <th>unit price</th>
+          <th>price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" class="check" /></td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/71mZa4Lj9dL._AC_UL320_.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <button class="add">+</button>
+            <input type="text" class="quantity" value="0" />
+            <button class="remove">-</button>
+          </td>
+          <td class="unitPrice">100</td>
+          <td class="price">0</td>
+          <td><i class="fas fa-heart"></i></td>
+          <td><button class="delete">X</button></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="check" /></td>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/I/71c5QY31WTL._AC_UL320_.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <button class="add">+</button>
+            <input type="text" class="quantity" value="0" />
+            <button class="remove">-</button>
+          </td>
+          <td class="unitPrice">50</td>
+          <td class="price">0</td>
+          <td><i class="fas fa-heart"></i></td>
+          <td><button class="delete">X</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="js/script1.js"></script>
+  </body>
+</html>
